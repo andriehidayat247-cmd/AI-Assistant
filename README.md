@@ -1,3 +1,239 @@
-**Absensi-Tutor-Les-Privat**
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Teacher Assistant | Berhenti Mulai Dari Nol</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; }
+        .bg-gradient-blue { background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 100%); }
+        .text-shadow { text-shadow: 1px 1px 2px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="bg-gray-50 text-slate-800">
 
-Berisi absensi kehadiran Tutor untuk memudahkan progres materi siswa
+    <!-- Header Section (Problem) -->
+    <section class="py-12 px-4 max-w-2xl mx-auto text-center">
+        <h1 class="text-2xl md:text-4xl font-extrabold text-blue-800 leading-tight mb-6">
+            Ngabisin Berjam-jam Cuma Bikin Perangkat Ajar? <span class="text-blue-600">Fiks Udah Ketinggalan Zaman!</span>
+        </h1>
+
+        <div class="bg-white border-2 border-red-100 rounded-2xl p-6 shadow-sm text-left mb-8">
+            <h2 class="text-red-600 font-bold mb-4 flex items-center">
+                <span class="mr-2">🚨</span> Jangan Sampai Terulang...
+            </h2>
+            <ul class="space-y-3">
+                <li class="flex items-start">
+                    <span class="text-red-500 mr-2">❌</span>
+                    <span>Baru buka file → udah bingung mulai dari mana</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-red-500 mr-2">❌</span>
+                    <span>Niatnya cepat → malah jadi berjam-jam</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-red-500 mr-2">❌</span>
+                    <span>Satu selesai → yang lain udah nunggu</span>
+                </li>
+            </ul>
+        </div>
+
+        <p class="text-slate-500 italic text-sm mb-4">Dan anehnya… ini kejadian hampir tiap hari.</p>
+        <div class="bg-blue-50 p-4 rounded-xl border border-blue-100 mb-8">
+            <p class="font-bold text-blue-900">Masalahnya bukan di kamu! Masalahnya di cara kerjanya.</p>
+            <p class="text-sm text-blue-700">Selama kamu selalu mulai dari nol… Capek itu bakal terus berulang.</p>
+        </div>
+    </section>
+
+    <!-- Transition Section -->
+    <section class="py-12 bg-blue-900 text-white text-center px-4">
+        <h3 class="text-xl md:text-2xl font-bold mb-6">Sekarang bayangin kalau cara kerja itu di-upgrade.</h3>
+        <div class="max-w-md mx-auto space-y-4 text-left">
+            <div class="flex items-center opacity-60">
+                <span class="mr-3 text-white">❌ Bukan lagi:</span>
+                <span class="text-sm">Buka dokumen kosong & mikir panjang</span>
+            </div>
+            <div class="bg-blue-800 p-4 rounded-lg border-l-4 border-yellow-400">
+                <p class="font-bold text-yellow-400 mb-2">Tapi:</p>
+                <ul class="space-y-2 text-sm">
+                    <li>👉 Sudah dikasih arahan</li>
+                    <li>👉 Jawab beberapa pertanyaan</li>
+                    <li>👉 Hasil langsung jadi</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Tombol ini mengarah ke ID pricing -->
+        <a href="#pricing" class="inline-block mt-8 bg-green-500 hover:bg-green-600 text-white font-extrabold py-4 px-8 rounded-full shadow-lg transform transition hover:scale-105">
+            UPGRADE CARA KERJA GURU DI SINI
+        </a>
+    </section>
+
+    <!-- Solution Hero -->
+    <section class="py-16 px-4 max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl md:text-5xl font-black text-blue-900 mb-4 tracking-tighter">
+            AI-POWERED <span class="text-blue-600">TEACHER ASSISTANT</span>
+        </h2>
+        <p class="text-lg text-slate-600 mb-8">Sistem AI yang bantu guru bekerja tanpa harus mulai dari nol lagi.</p>
+        
+        <div class="grid md:grid-cols-2 gap-4 mb-12">
+            <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-blue-500">
+                <div class="text-blue-500 text-3xl mb-3"><i class="fas fa-file-invoice"></i></div>
+                <h4 class="font-bold text-blue-900">AI Pembuat Modul Ajar</h4>
+                <p class="text-xs text-slate-500 mt-2">Susun administrasi dalam hitungan menit.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-md border-b-4 border-blue-500">
+                <div class="text-blue-500 text-3xl mb-3"><i class="fas fa-tasks"></i></div>
+                <h4 class="font-bold text-blue-900">AI Pembuat Soal Otomatis</h4>
+                <p class="text-xs text-slate-500 mt-2">Variasi soal berkualitas instan.</p>
+            </div>
+        </div>
+
+        <div class="bg-yellow-50 rounded-2xl p-6 border-2 border-dashed border-yellow-400">
+            <h4 class="font-bold text-yellow-800 mb-4 uppercase tracking-widest text-sm">Kamu Juga Dapat:</h4>
+            <ul class="space-y-3 text-left">
+                <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-2"></i> Free Toolkit by Gemini Canvas</li>
+                <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-2"></i> Akses Lifetime (Bayar Sekali)</li>
+                <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-2"></i> Update Fitur Selamanya</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Benefit Section -->
+    <section class="py-12 bg-white px-4">
+        <div class="max-w-2xl mx-auto">
+            <h3 class="text-2xl font-bold text-blue-900 text-center mb-8">Mulai hari ini...</h3>
+            <div class="space-y-4">
+                <div class="flex items-center p-4 bg-slate-50 rounded-xl">
+                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 mr-4">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div>
+                        <p class="font-bold">Gak perlu mulai dari nol</p>
+                        <p class="text-xs text-slate-500">Semua sudah memiliki kerangka dasar.</p>
+                    </div>
+                </div>
+                <div class="flex items-center p-4 bg-slate-50 rounded-xl">
+                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 mr-4">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div>
+                        <p class="font-bold">Fokus balik ke sesi mengajar</p>
+                        <p class="text-xs text-slate-500">Waktu Anda untuk murid, bukan untuk kertas.</p>
+                    </div>
+                </div>
+                <div class="flex items-center p-4 bg-slate-50 rounded-xl">
+                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 mr-4">
+                        <i class="fas fa-smile-beam"></i>
+                    </div>
+                    <div>
+                        <p class="font-bold">Kerjaan administrasi jadi lebih ringan</p>
+                        <p class="text-xs text-slate-500">Stres berkurang, hidup lebih tenang.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-16 bg-blue-900 text-white text-center px-4">
+        <p class="text-yellow-400 font-bold mb-2 uppercase text-sm tracking-widest">Khusus yang TAKE ACTION sekarang!</p>
+        <h3 class="text-xl mb-6">Dapatkan Akses Sistem Ini Hanya dengan:</h3>
+        
+        <div class="mb-8">
+            <span class="text-yellow-400 line-through text-2xl block mb-2 ">Rp 297.000</span>
+            <div class="inline-block bg-yellow-400 text-blue-900 px-8 py-4 rounded-2xl transform -rotate-2 shadow-xl">
+                <span class="text-4xl md:text-6xl font-black">Rp 59.000</span>
+            </div>
+        </div>
+
+        <div class="max-w-xs mx-auto bg-blue-800 rounded-xl p-4 mb-8 text-sm">
+            <div class="flex justify-between border-b border-blue-700 py-2">
+                <span>Coming Soon</span>
+                <span class="font-bold">79rb</span>
+            </div>
+            <div class="flex justify-between py-2 text-blue-400">
+                <span>Reguler</span>
+                <span class="font-bold">99rb</span>
+            </div>
+        </div>
+
+        <div class="text-red-400 font-bold text-sm mb-8 animate-pulse">
+            ⚠️ Setiap fitur baru → harga naik<br>
+            ⚠️ Early user = paling untung
+        </div>
+
+        <!-- Tombol mengarah ke URL Checkout Lynk.id -->
+        <a href="https://lynk.id/andriehidayat247/5v4ng84gzvjo/checkout" target="_blank" class="inline-block w-full max-w-md bg-green-500 hover:bg-green-600 text-white font-extrabold py-5 px-10 rounded-2xl shadow-2xl text-xl mb-4 text-center">
+            AMANKAN AKSESNYA SEKARANG!!
+        </a>
+        <p class="text-[10px] opacity-60">*Harga bisa naik tiba-tiba, join sekarang!</p>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 px-4 max-w-2xl mx-auto">
+        <h3 class="text-center font-bold text-2xl text-blue-900 mb-8 flex items-center justify-center">
+            <i class="fas fa-question-circle mr-2"></i> Yang Sering Ditanyakan (FAQ)
+        </h3>
+        
+        <div class="space-y-4">
+            <!-- FAQ 1 -->
+            <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden">
+                <div class="p-4 bg-slate-50 font-bold text-blue-900 text-sm">
+                    1. Apakah tools ini cuma untuk bikin modul ajar & soal aja?
+                </div>
+                <div class="p-4 text-sm text-slate-600 leading-relaxed">
+                    Nggak. Modul ajar dan soal itu cuma langkah awal. Akan terus dikembangkan mulai dari rubrik penilaian, LKPD, sampai otomatisasi rapor. Kamu dapat update-nya gratis.
+                </div>
+            </div>
+            <!-- FAQ 2 -->
+            <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden">
+                <div class="p-4 bg-slate-50 font-bold text-blue-900 text-sm">
+                    2. Apakah saya harus jago teknologi untuk pakai ini?
+                </div>
+                <div class="p-4 text-sm text-slate-600 leading-relaxed">
+                    Nggak perlu. Sistemnya sudah dipandu step-by-step. Kamu tinggal jawab pertanyaan, arahkan sedikit, dan hasilnya langsung jadi.
+                </div>
+            </div>
+            <!-- FAQ 3 -->
+            <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden">
+                <div class="p-4 bg-slate-50 font-bold text-blue-900 text-sm">
+                    3. Apakah hasil dari AI ini bisa diedit?
+                </div>
+                <div class="p-4 text-sm text-slate-600 leading-relaxed">
+                    Bisa banget. Output yang dihasilkan bukan “kunci mati”. AI bantu percepat, bukan menggantikan peran kamu sebagai guru.
+                </div>
+            </div>
+            <!-- FAQ 4 -->
+            <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden">
+                <div class="p-4 bg-slate-50 font-bold text-blue-900 text-sm">
+                    4. Kenapa harganya murah di awal?
+                </div>
+                <div class="p-4 text-sm text-slate-600 leading-relaxed">
+                    Harga sekarang itu khusus untuk early user. Kamu masuk lebih awal → kamu dapat semua update berikutnya tanpa biaya tambahan.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer sticky (Mobile) -->
+    <div class="fixed bottom-0 left-0 right-0 p-4 bg-white border-t md:hidden flex items-center justify-between z-50">
+        <div>
+            <p class="text-[10px] uppercase text-slate-400 font-bold leading-none">Harga Launching</p>
+            <p class="text-xl font-black text-blue-600">Rp 59.000</p>
+        </div>
+        <a href="#pricing" class="bg-green-500 text-white px-6 py-3 rounded-xl font-bold text-sm shadow-lg">
+            Amankan Akses!
+        </a>
+    </div>
+
+    <footer class="py-12 bg-slate-100 text-center text-slate-400 text-xs px-4 mb-20 md:mb-0">
+        <p>&copy; 2024 AI-Powered Teacher Assistant. Seluruh Hak Cipta Dilindungi.</p>
+        <p class="mt-2 italic">Dibuat untuk membantu guru Indonesia lebih produktif.</p>
+    </footer>
+
+</body>
+</html>
